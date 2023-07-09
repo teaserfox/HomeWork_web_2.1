@@ -45,24 +45,24 @@
             <div class="card mb-4 box-shadow">
                 <div class="card-header">
                     <h4 class="my-0 font-weight-normal">Свяжитесь с нами</h4>
+                    <img src="https://thumbs.gfycat.com/LightOilyDromaeosaur-max-1mb.gif" width="250" height="80" alt="лисица">
                 </div>
                 <div class="card-body">
                     <form method="post" action="" class="form-floating">
-                        {% csrf_token %}
+                        <!-- {% csrf_token %} -->
                         <div class="mb-3">
-                            <label for="name">Имя</label>
+                            <label for="name">Имя</label><br>
                             <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
                         </div>
                         <div class="mb-3">
-                            <label for="phone">Телефон</label>
+                            <label for="phone">Телефон</label><br>
                             <input type="text" name="phone" class="form-control" id="phone" placeholder="Контактный телефон" required>
                         </div>
                         <div class="mb-3">
-                            <label for="message">Сообщение</label>
+                            <label for="message">Сообщение</label><br>
                             <textarea type="text" name="message" class="form-control" id="message" placeholder="Контактный телефон" required></textarea>
                         </div>
                     </form>
-                    <input type="submit">
                     <button type="submit" class="btn btn-lg btn-block btn-outline-primary">Отправить</button>
                 </div>
             </div>
