@@ -1,7 +1,7 @@
 from django.core.management import BaseCommand
 
-from catalog.models.Category import Category
-from catalog.models.Products import Product
+from catalog.models.category import Category
+from catalog.models.products import Product
 
 
 class Products:
@@ -41,7 +41,9 @@ class Command(BaseCommand):
 
                     {'name': 'Идиот',
                      'purchase_price': 329,
-                     'category': categories_for_create[2]},  # Классическая отечественная проза
+                     'category': categories_for_create[2],  # Классическая отечественная проза
+                     'description': 'Я пришел вас предупредить: во-первых, мне денег взаймы не давать, '
+                     'потому что я непременно буду просить.'},
 
                     {'name': 'Тонкое искусство пофигизма: Парадоксальный способ жить счастливо',
                      'purchase_price': 587,

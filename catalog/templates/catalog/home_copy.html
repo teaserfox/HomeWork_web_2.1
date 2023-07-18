@@ -18,8 +18,7 @@
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h1 class="display-4">Фоксбук</h1>
-    <p class="lead">Фоксбук - это отличный вариант хранения ваших плагинов и примеров кода, который вы бы хотели
-        продать</p>
+    <p class="lead">Фоксбук - это отличный магазин рекомендованных книг к прочтению</p>
 </div>
 
 <div class="container">
@@ -28,10 +27,10 @@
         <div class="col-3">
             <div class="card mb-4 box-shadow">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">{{ object.title }}</h4>
+                    <h4 class="my-0 font-weight-normal">{{ object.name }}</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$ {{ object.price }}</h1>
+                    <h1 class="card-title pricing-card-title">руб {{ object.purchase_price }}</h1>
                     <ul class="list-unstyled mt-3 mb-4 text-start m-3">
                         <li>Категория: {{ object.category }}</li>
                         <li>Описание: {{ object.description|slice:':100' }}</li>

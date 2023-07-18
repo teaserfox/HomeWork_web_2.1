@@ -5,4 +5,4 @@ register = template.Library()
 
 @register.filter
 def mediapath_filter(image):
-    return f'/media/{image}'
+    return '/media/' + str(image)

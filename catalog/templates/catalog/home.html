@@ -22,13 +22,13 @@
         <div class="col-3">
             <div class="card mb-4 box-shadow">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">{{ object.name }}</h4>
+                    <h2 class="my-0 font-weight-normal">{{ object.name }}</h2>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$ {{ object.purchase_price }}</h1>
+                    <h4 class="card-title pricing-card-title">{{ object.purchase_price }} рублей</h4>
                     <ul class="list-unstyled mt-3 mb-4 text-start m-3">
                         <li>Категория: {{ object.category }}</li>
-                        <li>Описание: {{ object.description|slice:':100' }}</li>
+                        <li>Описание: {{ object.description|slice:':150' }}</li>
                         <img src="{% mediapath_tag object.image %}" /> <!-- Tag -->
 {#                        <img src="{{ object.image|mediapath_filter }}" /> <!-- filter -->#}
 
