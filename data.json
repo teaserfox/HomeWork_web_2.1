@@ -1,0 +1,86 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Классическая зарубежная проза",
+      "description": null
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+      "name": "Исторический детектив",
+      "description": null
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 6,
+    "fields": {
+      "name": "Классическая отечественная проза",
+      "description": null
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 7,
+    "fields": {
+      "name": "Личная эффективность, мотивация",
+      "description": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "name": "Повелитель мух",
+      "description": null,
+      "image": "",
+      "category": 4,
+      "purchase_price": 276,
+      "date_creation": "2023-07-17T12:24:11.419Z",
+      "date_last_modification": "2023-07-17T12:24:11.419Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "Убийство в \"Восточном экспрессе\"",
+      "description": null,
+      "image": "",
+      "category": 5,
+      "purchase_price": 309,
+      "date_creation": "2023-07-17T12:24:11.419Z",
+      "date_last_modification": "2023-07-17T12:24:11.419Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "name": "Идиот",
+      "description": null,
+      "image": "",
+      "category": 6,
+      "purchase_price": 329,
+      "date_creation": "2023-07-17T12:24:11.419Z",
+      "date_last_modification": "2023-07-17T12:24:11.419Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 12,
+    "fields": {
+      "name": "Тонкое искусство пофигизма: Парадоксальный способ жить счастливо",
+      "description": null,
+      "image": "",
+      "category": 7,
+      "purchase_price": 587,
+      "date_creation": "2023-07-17T12:24:11.419Z",
+      "date_last_modification": "2023-07-17T12:24:11.419Z"
+    }
+  }
+]

@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-    <h5 class="my-0 mr-md-auto font-weight-normal">Skystore</h5>
+    <h5 class="my-0 mr-md-auto font-weight-normal">Фоксбук</h5>
     <nav class="ms-5">
         <a class="p-2 btn btn-outline-primary" href="/">Каталог</a>
         <a class="p-2 btn btn-outline-primary" href="/contacts/">Контакты</a>
@@ -12,9 +12,8 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Skystore</h1>
-    <p class="lead">Skystore - это отличный вариант хранения ваших плагинов и примеров кода, который вы бы хотели
-        продать</p>
+    <h1 class="display-4">Фоксбук</h1>
+    <p class="lead">Фоксбук - это отличный магазин рекомендованных книг к прочтению</p>
 </div>
 
 <div class="container">
@@ -23,10 +22,10 @@
         <div class="col-3">
             <div class="card mb-4 box-shadow">
                 <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">{{ object.title }}</h4>
+                    <h4 class="my-0 font-weight-normal">{{ object.name }}</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$ {{ object.price }}</h1>
+                    <h1 class="card-title pricing-card-title">$ {{ object.purchase_price }}</h1>
                     <ul class="list-unstyled mt-3 mb-4 text-start m-3">
                         <li>Категория: {{ object.category }}</li>
                         <li>Описание: {{ object.description|slice:':100' }}</li>
