@@ -1,7 +1,7 @@
 from django.core.management import BaseCommand
 
-from catalog.templates.catalog.models.Category import Category
-from catalog.templates.catalog.models.Products import Product
+from catalog.models.Category import Category
+from catalog.models.Products import Product
 
 
 class Products:

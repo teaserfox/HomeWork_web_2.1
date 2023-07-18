@@ -1,6 +1,6 @@
 from django.contrib import admin
-from catalog.templates.catalog.models.Category import Category
-from catalog.templates.catalog.models.Products import Product
+from catalog.models.Category import Category
+from catalog.models.Products import Product
 
 
 # Register your models here.
