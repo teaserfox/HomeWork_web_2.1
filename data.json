@@ -1,7 +1,7 @@
 [
   {
     "model": "catalog.category",
-    "pk": 4,
+    "pk": 16,
     "fields": {
       "name": "Классическая зарубежная проза",
       "description": null
@@ -9,7 +9,7 @@
   },
   {
     "model": "catalog.category",
-    "pk": 5,
+    "pk": 17,
     "fields": {
       "name": "Исторический детектив",
       "description": null
@@ -17,7 +17,7 @@
   },
   {
     "model": "catalog.category",
-    "pk": 6,
+    "pk": 18,
     "fields": {
       "name": "Классическая отечественная проза",
       "description": null
@@ -25,7 +25,7 @@
   },
   {
     "model": "catalog.category",
-    "pk": 7,
+    "pk": 19,
     "fields": {
       "name": "Личная эффективность, мотивация",
       "description": null
@@ -33,54 +33,54 @@
   },
   {
     "model": "catalog.product",
-    "pk": 9,
+    "pk": 21,
     "fields": {
       "name": "Повелитель мух",
-      "description": null,
+      "description": "Если лицо совершенно меняется от того, сверху или снизу его осветить, — чего же стоит лицо? И чего же всё вообще тогда стоит?",
       "image": "",
-      "category": 4,
+      "category": 16,
       "purchase_price": 276,
-      "date_creation": "2023-07-17T12:24:11.419Z",
-      "date_last_modification": "2023-07-17T12:24:11.419Z"
+      "date_creation": "2023-07-18T20:56:34.599Z",
+      "date_last_modification": "2023-07-18T20:56:34.599Z"
     }
   },
   {
     "model": "catalog.product",
-    "pk": 10,
+    "pk": 22,
     "fields": {
-      "name": "Убийство в \"Восточном экспрессе\"",
-      "description": null,
+      "name": "Убийство в Восточном экспрессе",
+      "description": "Невозможное случиться не может, поэтому оно должно стать возможным, несмотря ни на что.",
       "image": "",
-      "category": 5,
+      "category": 17,
       "purchase_price": 309,
-      "date_creation": "2023-07-17T12:24:11.419Z",
-      "date_last_modification": "2023-07-17T12:24:11.419Z"
+      "date_creation": "2023-07-18T20:56:34.599Z",
+      "date_last_modification": "2023-07-18T20:56:34.599Z"
     }
   },
   {
     "model": "catalog.product",
-    "pk": 11,
+    "pk": 23,
     "fields": {
       "name": "Идиот",
-      "description": null,
+      "description": "Я пришел вас предупредить: во-первых, мне денег взаймы не давать, потому что я непременно буду просить.",
       "image": "",
-      "category": 6,
+      "category": 18,
       "purchase_price": 329,
-      "date_creation": "2023-07-17T12:24:11.419Z",
-      "date_last_modification": "2023-07-17T12:24:11.419Z"
+      "date_creation": "2023-07-18T20:56:34.599Z",
+      "date_last_modification": "2023-07-18T20:56:34.599Z"
     }
   },
   {
     "model": "catalog.product",
-    "pk": 12,
+    "pk": 24,
     "fields": {
       "name": "Тонкое искусство пофигизма: Парадоксальный способ жить счастливо",
-      "description": null,
+      "description": "Знаете, кто строит всю жизнь на эмоциях? Трехлетние дети. И собаки. И знаете, что еще делают трехлетние дети и собаки? Срут на ковер.",
       "image": "",
-      "category": 7,
+      "category": 19,
       "purchase_price": 587,
-      "date_creation": "2023-07-17T12:24:11.419Z",
-      "date_last_modification": "2023-07-17T12:24:11.419Z"
+      "date_creation": "2023-07-18T20:56:34.599Z",
+      "date_last_modification": "2023-07-18T20:56:34.599Z"
     }
   }
 ]
